@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -18,5 +18,14 @@
   <ItemGroup>
     <ProjectReference Include="..\TechJobsOOAutoGraded6\TechJobsOOAutoGraded6.csproj" />
     <ProjectReference Include="..\TechJobs.Test\TechJobs.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="EmptyFieldTest.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StartsAndEndsWithNewLine.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
